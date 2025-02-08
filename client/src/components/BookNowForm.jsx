@@ -14,7 +14,7 @@ const BookNowForm = ({ showForm, toggleForm }) => {
     <div className="fixed inset-0 z-10 flex items-center justify-center bg-gray bg-transparent bg-opacity-50">
       <form
         onSubmit={hadleSubmit}
-        className="bg-white flex flex-col gap-7 rounded-md p-8 lg:w-[34rem] h-[38.5rem] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 "
+        className="bg-white flex flex-col gap-7 rounded-md p-8 w-full md:w-[34rem] md:m-auto lg:w-[34rem] lg:h-[38.5rem] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 "
       >
         <button onClick={toggleForm}>
           <FaTimes className="text-gray" />
