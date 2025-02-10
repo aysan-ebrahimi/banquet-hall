@@ -1,5 +1,5 @@
-import hall1 from "../constants/photos/hall1.jpg";
-import hall2 from "../constants/photos/hall2.jpg";
+import hall1 from "../constants/photos/hall1.jpeg";
+import hall2 from "../constants/photos/hall2.jpeg";
 import room1 from "../constants/photos/room1.jpg";
 import room2 from "../constants/photos/room2.jpg";
 import room3 from "../constants/photos/room3.jpg";
@@ -34,7 +34,7 @@ export const hallData = [
     hallNumber: "Hall 01",
     hallCapacity: "Upto 200 seats",
     hallArea: "682 m2 or 7341 ft2",
-    hallservise:"catering",
+    hallservise: "catering",
   },
   {
     id: 2,
@@ -42,6 +42,6 @@ export const hallData = [
     hallNumber: "Hall 02",
     hallCapacity: "Upto 200 seats",
     hallArea: "682 m2 or 7341 ft2",
-    hallservise:"catering",
+    hallservise: "catering",
   },
 ];

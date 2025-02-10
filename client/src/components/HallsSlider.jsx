@@ -7,8 +7,10 @@ import HallCard from "./HallCard";
 
 const HallsSlider = () => {
   return (
-    <div className="px-20 py-8">
-      <h1 className="text-[2rem] font-bold text-gray-800 mb-6 text-center">
+    <div className="px-20 py-8 font-sans">
+      <h1 
+      className="text-[2rem] font-bold text-gray-800 mb-6 text-center"
+      >
         Halls
       </h1>
       <OwlCarousel

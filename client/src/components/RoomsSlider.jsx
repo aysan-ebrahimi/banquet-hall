@@ -7,7 +7,7 @@ import RoomCard from "./RoomCard";
 
 const RoomsSlider = () => {
   return (
-    <div className="px-20 py-8">
+    <div className="px-20 py-8 font-sans">
       <h1 className="text-[2rem] font-bold text-gray-800 mb-6 text-center">
         Rooms
       </h1>

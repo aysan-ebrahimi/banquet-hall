@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import banner from "../constants/photos/bannerImage.jpg";
+import banner from "../constants/photos/bannerImage.jpeg";
 import BookNowForm from "./BookNowForm";
 import Navbar from "./Navbar";
 const Header = () => {
@@ -9,13 +9,14 @@ const Header = () => {
   };
   return (
     <div
-      className="relative w-full h-[655px] lg:h-[655px] md:h-[655px]  bg-cover bg-center"
+      className="relative w-full h-[500px] lg:h-[500px] md:h-[500px]  bg-cover bg-center font-sans"
       style={{ backgroundImage: `url(${banner})` }}
     >
       <Navbar />
-      <div className="absolute bottom-60 left-20 flex flex-col gap-12 items-start justify-center text-white font-sans">
+      <div className="absolute bottom-24 left-20 flex flex-col gap-12 items-start justify-center text-white font-sans">
         <h1 className="flex flex-col font-medium text-[4.3rem]/[4.3rem]">
-          GRAND <span className="forn-bold">PEARL.</span>
+          FOUR <span>SEASON</span>
+          <span className="forn-bold">EVENTS</span>
         </h1>
         <button
           onClick={toggleForm}

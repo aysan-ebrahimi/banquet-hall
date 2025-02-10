@@ -53,7 +53,10 @@ const Navbar = () => {
         className="hidden md:flex justify-around gap-10 "
       >
         {categories.map((item) => (
-          <li key={item.id} className="underline px-2 cursor-pointer">
+          <li
+            key={item.id}
+            className="underline px-2 cursor-pointer font-medium"
+          >
             {item.name}
           </li>
         ))}
